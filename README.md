@@ -13,8 +13,10 @@ make build
 ```
 
 API visible in http://localhost:8085/
+
 DataBase adminer visible in http://localhost:8083/ : user:root ; password:root;pqsql:db
 
+API Doc visible in http://localhost:8085/api/docs 
 
 ## Start Services
 
@@ -28,7 +30,8 @@ make start
 make in
 ```
 if you have problem in getting Token Run inside container this command : chown -R www-data:www-data config/jwt
- Run Composer install inside container to install all compoenents
+
+Run Composer install inside container to install all compoenents
 
 ## Run Tests
 
