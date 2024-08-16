@@ -1,0 +1,18 @@
+framework:
+  rate_limiter:
+    entity_create:
+      policy: 'fixed_window'
+      limit: 5
+      interval: '60 minutes'
+    entity_modify: # account activate, change profile
+      policy: 'fixed_window'
+      limit: 30
+      interval: '60 minutes'
+    entity_delete: # account activate, change profile
+      policy: 'fixed_window'
+      limit: 30
+      interval: '60 minutes'
+    entity_get: # account activate, change profile
+      policy: 'fixed_window'
+      limit: 30
+      interval: '60 minutes'
