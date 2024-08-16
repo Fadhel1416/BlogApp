@@ -28,6 +28,7 @@ make start
 make in
 ```
 if you have problem in getting Token Run inside container this command : chown -R www-data:www-data config/jwt
+ Run Composer install inside container to install all compoenents
 
 ## Run Tests
 
